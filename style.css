@@ -510,13 +510,8 @@ footer p {
 /* TRANSITION EFFECTS - END */
 
 /* ANIMATED BLOB for profile-pic - START */
-.box {
-  background: url('./assets/profile-pic.jpg');
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-  width: 400px;
+#my-profile-pic {
+  
   box-shadow: 0 20px 5px rgba(0,0,0,0.2);
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
