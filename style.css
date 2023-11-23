@@ -476,7 +476,7 @@ footer p {
   height: 70%;
 }
 
-.article-container h1, .article-container p {
+.overlay h1, .overlay p {
   width: 100%;
   margin-top: 5%;
   color: white;
