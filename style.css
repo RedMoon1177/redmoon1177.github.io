@@ -473,18 +473,20 @@ footer p {
 }
 
 .article-container:hover .overlay {
-  height: 70%;
+  height: 85%;
 }
 
-.overlay h1, .overlay p {
+.overlay p {
   width: 100%;
   margin-top: 5%;
   color: white;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   font-family: Arial, cursive;
-}
 
+  font-size: 0.8rem;
+  line-height: 1.15rem;
+}
 
 .project:nth-child(2) {
   transition-delay: 300ms;
@@ -526,3 +528,12 @@ footer p {
   }
 }
 /* ANIMATED BLOB for profile-pic - END */
+
+
+@media screen and (max-width: 600px) {
+  .overlay p {
+    color: white;
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+}

@@ -1,0 +1,5 @@
+3. Customize Experience section
+4. Customize Project section
+5. Refine the codeimage in the about-me section
+6. Double check Responsive functionality
+7. Double check Spelling/Grammar....
